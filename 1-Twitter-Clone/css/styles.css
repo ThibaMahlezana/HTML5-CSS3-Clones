@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
