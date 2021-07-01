@@ -6,76 +6,80 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
+.register {
+  .content {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .content i {
+    color: #1da1f2;
+    font-size: 50px;
+  }
+  .content .heading {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: 1.2px;
+  }
 
-.register .content {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 20px;
-}
+  .content .heading .btn-signup {
+    background-color: #1da1f2;
+    color: #fff;
+  }
 
-.register .content .heading {
-  font-size: 64px;
-  font-weight: 600;
-  margin-bottom: 50px;
-  letter-spacing: 1.2px;
-}
+  .content .sub-heading {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    letter-spacing: 1.2px;
+  }
 
-.register .content .heading .btn-signup {
-  background-color: #1da1f2;
-  color: #fff;
-}
+  .content button {
+    font-size: large;
+    padding: 8px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 3rem;
+    border-color: #1da1f2;
+    font-weight: 900;
+    color: #1da1f2;
+  }
 
-.register .content .sub-heading {
-  font-size: 25px;
-  font-weight: 900;
-  margin-bottom: 8px;
-  letter-spacing: 1.2px;
-}
+  .register-bg {
+    color: white;
+    font-size: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 
-.register .content button {
-  font-size: large;
-  padding: 8px;
-  width: 60%;
-  margin-top: 10px;
-  border-radius: 3rem;
-  border-color: #1da1f2;
-  font-weight: 900;
-  color: #1da1f2;
-}
+  .copyright {
+    padding: 10px 5px;
+    font-size: medium;
+  }
 
-.register .register-bg {
-  color: white;
-  font-size: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.register .copyright {
-  padding: 10px 5px;
-  font-size: medium;
-}
-
-.register .copyright a {
-  color: #657786;
-  font-weight: 400;
-  margin: 0 10px;
-  font-size: 13px;
+  .copyright a {
+    color: #657786;
+    font-weight: 400;
+    margin: 0 10px;
+    font-size: 13px;
+  }
 }
 
 .login {

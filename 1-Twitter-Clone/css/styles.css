@@ -23,6 +23,11 @@ body {
   padding: 20px;
 }
 
+.register .content i {
+  color: #1da1f2;
+  font-size: 50px;
+}
+
 .register .content .heading {
   font-size: 64px;
   font-weight: 600;
