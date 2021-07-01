@@ -26,6 +26,7 @@
   <body>
     <div class="register">
       <div class="row">
+        <!-- background image section-->
         <div class="col-6 register-bg">
           <i
             class="fa fa-twitter"
@@ -33,6 +34,7 @@
             style="color: #fff; margin-bottom: 50px"
           ></i>
         </div>
+        <!-- buttons section-->
         <div class="col-6">
           <div class="content">
             <i
@@ -42,10 +44,60 @@
             ></i>
             <div class="heading">Happening now</div>
             <div class="sub-heading">Join Twitter today.</div>
-            <button className="btn" style="background: #1da1f2; color: #fff">
+            <button
+              className="btn"
+              style="background: #1da1f2; color: #fff"
+              data-toggle="modal"
+              data-target="#registerModal"
+            >
               Sign up
             </button>
             <button className="btn">Log in</button>
+          </div>
+
+          <!-- register modal window -->
+          <div
+            class="modal fade"
+            id="registerModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <i
+                  class="fa fa-twitter"
+                  aria-hidden="true"
+                  style="color: #1da1f2; margin-bottom: 50px"
+                ></i>
+
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                  <h3>Create your account</h3>
+                  <input />
+                  <input />
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
