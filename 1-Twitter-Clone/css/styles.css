@@ -4,12 +4,8 @@
   padding: 0;
 }
 
-body {
-  font-family: "Helvetica Neue", sans-serif;
-}
-
 .register .content {
-  height: 100vh;
+  height: 86vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,17 +44,21 @@ body {
 }
 
 .register .content button {
-  font-size: large;
+  font-size: 15px;
   padding: 8px;
-  width: 60%;
+  width: 70%;
   margin-top: 10px;
   border-radius: 3rem;
-  border-color: #1da1f2;
-  font-weight: 900;
+  border: 1px solid #1da1f2;
+  font-weight: 500;
   color: #1da1f2;
 }
 
 .register .register-bg {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
   font-size: 300px;
   display: -webkit-box;
@@ -74,12 +74,13 @@ body {
 
 .register .copyright {
   padding: 10px 5px;
-  font-size: medium;
+  font-size: 20px;
+  text-align: center;
 }
 
 .register .copyright a {
-  color: #657786;
   font-weight: 400;
+  color: #657786;
   margin: 0 10px;
   font-size: 13px;
 }
