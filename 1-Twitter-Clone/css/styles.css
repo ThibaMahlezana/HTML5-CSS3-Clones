@@ -201,4 +201,14 @@
   border-radius: 30px;
   color: #1da1f2;
 }
+
+.home .right-bar button {
+  width: 100%;
+  background-color: #1da1f2;
+  border: none;
+  font-weight: 900;
+  border-radius: 30px;
+  height: 50px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
