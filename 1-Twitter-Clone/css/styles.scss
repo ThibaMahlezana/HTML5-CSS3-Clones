@@ -190,6 +190,13 @@ body {
   .right-bar {
     border-right: 1px solid #e6ecf0;
     flex: 0.2;
+    .fa-twitter {
+      color: #1da1f2;
+      font-size: 30px;
+    }
+    i {
+      color: #1da1f2;
+    }
     .option {
       display: flex;
       align-items: center;

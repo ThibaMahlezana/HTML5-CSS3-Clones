@@ -198,6 +198,15 @@ body {
           flex: 0.2;
 }
 
+.home .right-bar .fa-twitter {
+  color: #1da1f2;
+  font-size: 30px;
+}
+
+.home .right-bar i {
+  color: #1da1f2;
+}
+
 .home .right-bar .option {
   display: -webkit-box;
   display: -ms-flexbox;
