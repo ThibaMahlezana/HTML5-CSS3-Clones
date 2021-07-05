@@ -190,4 +190,15 @@
           align-items: center;
   cursor: pointer;
 }
+
+.home .right-bar .option a {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.home .right-bar .option a:hover {
+  background-color: #e6ecf0;
+  border-radius: 30px;
+  color: #1da1f2;
+}
 /*# sourceMappingURL=styles.css.map */
