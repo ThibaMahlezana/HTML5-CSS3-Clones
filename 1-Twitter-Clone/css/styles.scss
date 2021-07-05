@@ -4,6 +4,11 @@
 }
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 body {
+  display: flex;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }
 .register {
   .content {
@@ -183,6 +188,8 @@ body {
 
 .home {
   .right-bar {
+    border-right: 1px solid #e6ecf0;
+    flex: 0.2;
     .option {
       display: flex;
       align-items: center;
