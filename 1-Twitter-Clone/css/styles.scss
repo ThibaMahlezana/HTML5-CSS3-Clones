@@ -180,4 +180,14 @@ body {
   border-radius: 3rem;
   width: 100%;
 }
+
+.home {
+  .right-bar {
+    .option {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}
 /*# sourceMappingURL=styles.css.map */
