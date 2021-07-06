@@ -5,6 +5,7 @@
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 body {
   height: 100vh;
+  font-weight: normal;
 }
 .register {
   .content {
@@ -250,7 +251,7 @@ body {
           border: none;
           padding: 5px;
           border-bottom: 1px solid #e6ecf0;
-          font-weight: 400;
+          margin-bottom: 5px;
         }
         .btn {
           background-color: #1da1f2;
