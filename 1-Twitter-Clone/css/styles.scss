@@ -226,10 +226,39 @@ body {
       margin: 0;
       display: flex;
       align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
   }
 
   .right-bar {
+    .search-box {
+      background-color: #eeeded;
+      border-radius: 30px;
+      padding: 5px;
+      margin-top: 5px;
+      width: 80%;
+      height: 50px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      input {
+        background-color: #eeeded;
+        border: none;
+        width: 80%;
+        height: 100%;
+        font-weight: 300;
+
+        &:focus{
+          border: none;
+        }
+      }
+      i {
+        width: 15%;
+        font-size: 20px;
+      }
+    }
   }
 }
 /*# sourceMappingURL=styles.css.map */
