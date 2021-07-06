@@ -221,6 +221,7 @@ body {
   
   .feed {
     border-right: 1px solid #e6ecf0;
+    margin: 0;
     .header {
       border-bottom: 1px solid #e6ecf0;
       height: 60px;
@@ -230,18 +231,31 @@ body {
       position: sticky;
       top: 0;
       z-index: 100;
+      background-color: #FFF;
     }
     .post {
-      margin: 0;
-      background-color: blue;
+      padding: 5px 0;
+      display: flex;
       .avatar {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: red;
-
+        width: 18%;
         img {
-          width: 20px;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+      }
+      .textbox {
+        textarea {
+          width: 90%;
+          border: none;
+          padding: 5px;
+          border-bottom: 1px solid #e6ecf0;
+          font-weight: 400;
+        }
+        .btn {
+          background-color: #1da1f2;
+          color: #fff;
+          border-radius: 30px;
         }
       }
     }
