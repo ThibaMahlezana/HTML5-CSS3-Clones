@@ -330,6 +330,18 @@ body {
           flex-flow: row nowrap;
 }
 
+.home .feed .tweets .content .names .full-name {
+  padding-right: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.home .feed .tweets .content .names .user-name {
+  padding-right: 10px;
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
 .home .right-bar .search-box {
   background-color: #eeeded;
   border-radius: 30px;

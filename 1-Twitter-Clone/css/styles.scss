@@ -284,6 +284,17 @@ body {
         .names {
           display: flex;
           flex-flow: row nowrap;
+
+          .full-name {
+            padding-right: 10px;
+            font-size: 1rem;
+            font-weight: 700;
+          }
+          .user-name {
+            padding-right: 10px;
+            font-size: 1.05rem;
+            font-weight: 400;
+          }
         }
       }
     }
