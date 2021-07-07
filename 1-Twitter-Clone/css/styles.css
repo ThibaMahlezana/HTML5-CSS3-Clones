@@ -284,6 +284,24 @@ body {
   border-radius: 30px;
 }
 
+.home .feed .tweets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  width: 100%;
+  line-height: 1.75rem;
+  padding-top: 0.5rem;
+  border-bottom: 1px solid #e6ecf0;
+}
+
 .home .feed .tweets .profile-pic {
   display: block;
   width: 50px;
