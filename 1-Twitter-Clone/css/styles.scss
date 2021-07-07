@@ -269,12 +269,22 @@ body {
       line-height: 1.75rem;
       padding-top: 0.5rem;
       border-bottom: 1px solid #e6ecf0;
+
       .profile-pic {
         display: block;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         margin: 0.5rem 1rem;
+      }
+      .content {
+        display: flex;
+        flex-flow: column nowrap;
+
+        .names {
+          display: flex;
+          flex-flow: row nowrap;
+        }
       }
     }
   }
