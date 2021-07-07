@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="home">
-      <div class="right-bar">
+    <div class="row home">
+      <div class="col-3 left-bar">
         <i class="fa fa-twitter"></i>
         <p class="option">
           <a><i class="fa fa-home" aria-hidden="true"></i> Home</a>
@@ -53,9 +53,34 @@
         </p>
         <button class="btn btn-lg btn-primary">Tweet</button>
       </div>
-      <div class="col-6"><h4>Home</h4></div>
-      <div class="col-3">
-        <input type="text" placeholder="Search Twitter" />
+      <div class="col-5 feed">
+        <div class="header"><h5>Home</h5></div>
+        <div class="post">
+          <div class="avatar">
+            <img src="https://picsum.photos/10" />
+          </div>
+          <div class="textbox">
+            <textarea placeholder="Whats's happening?" rows="3" cols="50"></textarea>
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <button class="btn">Tweet</button>
+          </div>
+        </div>
+        <div class="tweets">
+          <div class="profile-pic"><img src="https://picsum.photos/10" /></div>
+          <div class="content">
+            <div class="names">
+              <p class="full-name">Full Name</p>
+              <p class="user-name">@full_name</p>
+              <p class="time"> 27mins</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 right-bar">
+        <div class="search-box">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text" placeholder="Search Twitter" />
+        </div>
       </div>
     </div>
   </body>

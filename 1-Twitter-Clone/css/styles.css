@@ -1,11 +1,13 @@
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   height: 100vh;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .register .content {
   height: 86vh;
@@ -19,32 +21,44 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 20px; }
-  .register .content i {
-    color: #1da1f2;
-    font-size: 50px; }
-  .register .content .heading {
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    letter-spacing: 1.2px; }
-  .register .content .heading .btn-signup {
-    background-color: #1da1f2;
-    color: #fff; }
-  .register .content .sub-heading {
-    font-size: 25px;
-    font-weight: 900;
-    margin-bottom: 8px;
-    letter-spacing: 1.2px; }
-  .register .content button {
-    font-size: 15px;
-    padding: 8px;
-    width: 70%;
-    margin-top: 10px;
-    border-radius: 3rem;
-    border: 1px solid #1da1f2;
-    font-weight: 500;
-    color: #1da1f2; }
+  padding: 20px;
+}
+
+.register .content i {
+  color: #1da1f2;
+  font-size: 50px;
+}
+
+.register .content .heading {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  letter-spacing: 1.2px;
+}
+
+.register .content .heading .btn-signup {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.register .content .sub-heading {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  letter-spacing: 1.2px;
+}
+
+.register .content button {
+  font-size: 15px;
+  padding: 8px;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 3rem;
+  border: 1px solid #1da1f2;
+  font-weight: 500;
+  color: #1da1f2;
+}
+
 .register .register-bg {
   background-image: url(../images/bg.png);
   background-size: cover;
@@ -60,17 +74,22 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+}
+
 .register .copyright {
   padding: 10px 5px;
   font-size: 20px;
-  text-align: center; }
-  .register .copyright a {
-    font-weight: 400;
-    color: #657786;
-    margin: 0 7px;
-    font-size: 13px;
-    line-height: 10px; }
+  text-align: center;
+}
+
+.register .copyright a {
+  font-weight: 400;
+  color: #657786;
+  margin: 0 7px;
+  font-size: 13px;
+  line-height: 10px;
+}
 
 .login {
   display: -webkit-box;
@@ -81,15 +100,18 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .login .login-box {
   padding: 10px;
   max-width: 400px;
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 .login .login-box h1 {
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 .login .login-box input[type="text"] {
   margin-top: 15px;
@@ -98,19 +120,24 @@ body {
   border-radius: 5px;
   font-size: 20px;
   height: 60px;
-  width: 100%; }
+  width: 100%;
+}
 
 .login .login-box input[type="text"] ::-webkit-input-placeholder {
-  color: #aab8c2; }
+  color: #aab8c2;
+}
 
 .login .login-box input[type="text"] :-ms-input-placeholder {
-  color: #aab8c2; }
+  color: #aab8c2;
+}
 
 .login .login-box input[type="text"] ::-ms-input-placeholder {
-  color: #aab8c2; }
+  color: #aab8c2;
+}
 
 .login .login-box input[type="text"] ::placeholder {
-  color: #aab8c2; }
+  color: #aab8c2;
+}
 
 .login .login-box input[type="password"] {
   margin-top: 15px;
@@ -119,7 +146,8 @@ body {
   border-radius: 5px;
   font-size: 20px;
   height: 60px;
-  width: 100%; }
+  width: 100%;
+}
 
 .login .login-box .btn-login {
   background-color: #1da1f2;
@@ -129,88 +157,133 @@ body {
   border-radius: 2rem;
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .login .login-box a {
-  font-size: medium; }
+  font-size: medium;
+}
 
 .menu-bar {
   font-size: 26px;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .menu-bar ul {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .menu-bar ul li {
   list-style-type: none;
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 .menu-bar .btn {
   background-color: #1da1f2;
   color: white;
   border-radius: 3rem;
-  width: 100%; }
+  width: 100%;
+}
 
 .home .left-bar {
   border-right: 1px solid #e6ecf0;
-  margin: 0; }
-  .home .left-bar .fa-twitter {
-    color: #1da1f2;
-    font-size: 30px; }
-  .home .left-bar i {
-    color: #1da1f2; }
-  .home .left-bar .option {
-    display: flex;
-    align-items: center;
-    cursor: pointer; }
-    .home .left-bar .option a {
-      font-size: 20px;
-      font-weight: 800; }
-      .home .left-bar .option a:hover {
-        background-color: #e6ecf0;
-        border-radius: 30px;
-        color: #1da1f2; }
-  .home .left-bar button {
-    width: 100%;
-    background-color: #1da1f2;
-    border: none;
-    font-weight: 900;
-    border-radius: 30px;
-    height: 50px;
-    margin-top: 20px; }
+  margin: 0;
+}
+
+.home .left-bar .fa-twitter {
+  color: #1da1f2;
+  font-size: 30px;
+}
+
+.home .left-bar i {
+  color: #1da1f2;
+}
+
+.home .left-bar .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.home .left-bar .option a {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.home .left-bar .option a:hover {
+  background-color: #e6ecf0;
+  border-radius: 30px;
+  color: #1da1f2;
+}
+
+.home .left-bar button {
+  width: 100%;
+  background-color: #1da1f2;
+  border: none;
+  font-weight: 900;
+  border-radius: 30px;
+  height: 50px;
+  margin-top: 20px;
+}
+
 .home .feed {
   border-right: 1px solid #e6ecf0;
-  margin: 0; }
-  .home .feed .header {
-    border-bottom: 1px solid #e6ecf0;
-    height: 60px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: #FFF; }
-  .home .feed .post {
-    padding: 5px 0;
-    display: flex; }
-    .home .feed .post .avatar {
-      width: 18%; }
-      .home .feed .post .avatar img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%; }
-    .home .feed .post .textbox textarea {
-      width: 90%;
-      border: none;
-      padding: 5px;
-      border-bottom: 1px solid #e6ecf0;
-      margin-bottom: 5px; }
-    .home .feed .post .textbox .btn {
-      background-color: #1da1f2;
-      color: #fff;
-      border-radius: 30px; }
+  margin: 0;
+}
+
+.home .feed .header {
+  border-bottom: 1px solid #e6ecf0;
+  height: 60px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #FFF;
+}
+
+.home .feed .post {
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .feed .post .avatar {
+  width: 18%;
+}
+
+.home .feed .post .avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.home .feed .post .textbox textarea {
+  width: 90%;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #e6ecf0;
+  margin-bottom: 5px;
+}
+
+.home .feed .post .textbox .btn {
+  background-color: #1da1f2;
+  color: #fff;
+  border-radius: 30px;
+}
+
 .home .right-bar .search-box {
   background-color: #eeeded;
   border-radius: 30px;
@@ -219,20 +292,28 @@ body {
   width: 80%;
   height: 50px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
-  .home .right-bar .search-box input {
-    background-color: #eeeded;
-    border: none;
-    width: 80%;
-    height: 100%;
-    font-weight: 300; }
-    .home .right-bar .search-box input:focus {
-      border: none; }
-  .home .right-bar .search-box i {
-    width: 15%;
-    font-size: 20px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-/*# sourceMappingURL=styles.css.map */
+.home .right-bar .search-box input {
+  background-color: #eeeded;
+  border: none;
+  width: 80%;
+  height: 100%;
+  font-weight: 300;
+}
 
+.home .right-bar .search-box input:focus {
+  border: none;
+}
+
+.home .right-bar .search-box i {
+  width: 15%;
+  font-size: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
