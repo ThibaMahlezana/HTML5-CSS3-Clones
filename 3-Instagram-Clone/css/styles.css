@@ -15,7 +15,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .home .bg-img img {
@@ -107,5 +107,23 @@ body {
 .home .signin-form .app-links .img-links img {
   width: 40%;
   margin: 5px 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  line-height: .6rem;
+}
+
+footer a {
+  margin: 0 8px;
+  color: #808080;
+  font-size: 13px;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */

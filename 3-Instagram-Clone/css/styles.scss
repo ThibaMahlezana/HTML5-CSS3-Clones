@@ -18,7 +18,7 @@ body {
 .home {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   .bg-img {
     img {
       width: 100%;
@@ -83,6 +83,21 @@ body {
           margin: 5px 10px;
         }
       }
+    }
+  }
+}
+footer {
+  text-align: center;
+  p {
+    line-height: .6rem;
+  }
+  a {
+    margin: 0 8px;
+    color: #808080;
+    font-size: 13px;
+
+    &:hover {
+      text-decoration: none;
     }
   }
 }
