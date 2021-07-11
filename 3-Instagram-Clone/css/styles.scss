@@ -7,5 +7,11 @@ $color_5 : #fbad50;
 $color_6 : #cd486b;
 $color_7 : #4c68d7;
 
+/*** instagram fonts ***/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-style: normal; 
+  font-size: 1.25em;
 }
