@@ -4,9 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
+    
+    <!-- Bootstrap 4 files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- fontawsome 4 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Custom styles -->
     <link rel="stylesheet" href="css/styles.css"/>
   </head>
   <body>
-    <h1>Instagram Clone</h1>
+    <div class="container home">
+      <div class="row">
+        <div class="col-6 bg-img">
+          <img src="images/bg.jpg"/>
+        </div>
+        <div class="col-6 signin-form">
+          <form>
+            <img src="images/Instagram-Logo.png"/>
+            <input type="text" placeholder="Phone number, username or email"/>
+            <input type="password" placeholder="password"/>
+            <button class="btn">log In</button>
+            <p>OR</p>
+            <a href="#">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              Log in with Facebook
+            </a>
+            <p><a>Forgot password?</a></p>
+          </form>
+          <div class="signup-link">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+          </div>
+          <div class="app-links">
+            <p>Get the app.</p>
+            <div class="img-links">
+              <img src="images/apple-store.png"/>
+              <img src="images/google-playstore.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

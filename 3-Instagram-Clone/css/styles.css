@@ -7,4 +7,105 @@ body {
   font-style: normal;
   font-size: 1.25em;
 }
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.home .bg-img img {
+  width: 100%;
+}
+
+.home .signin-form form {
+  border: 1px solid #b1b1b1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .signin-form form img {
+  width: 60%;
+}
+
+.home .signin-form form input {
+  margin: 5px;
+  width: 70%;
+  font-size: 15px;
+}
+
+.home .signin-form form .btn {
+  background-color: #0095f6;
+  color: white;
+  width: 70%;
+  font-size: 15px;
+  height: 35px;
+  margin: 10px 0;
+}
+
+.home .signin-form form p {
+  font-size: 15px;
+}
+
+.home .signin-form form p a {
+  font-size: small;
+}
+
+.home .signin-form form a {
+  color: #4267B2;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.home .signin-form form a:hover {
+  text-decoration: none;
+}
+
+.home .signin-form .signup-link {
+  border: 1px solid #b1b1b1;
+  margin: 15px 0;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .signin-form .signup-link p {
+  font-size: 15px;
+}
+
+.home .signin-form .app-links {
+  text-align: center;
+  font-size: 15px;
+}
+
+.home .signin-form .app-links .img-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .signin-form .app-links .img-links img {
+  width: 40%;
+  margin: 5px 10px;
+}
 /*# sourceMappingURL=styles.css.map */
