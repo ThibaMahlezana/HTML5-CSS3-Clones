@@ -141,7 +141,35 @@ footer a:hover {
   width: 30%;
 }
 
+.timeline .navbar .middle input {
+  text-align: center;
+  width: 60%;
+  height: 30px;
+  border: 1px solid #dadada;
+  font-size: 15px;
+}
+
+.timeline .navbar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .timeline .navbar .right img {
   width: 8%;
+  margin: 0 10px;
+}
+
+.timeline .navbar .right i {
+  margin: 0 12px;
+  font-size: 26px;
+}
+
+.timeline .navbar .right .profile-sec {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 10px;
 }
 /*# sourceMappingURL=styles.css.map */
