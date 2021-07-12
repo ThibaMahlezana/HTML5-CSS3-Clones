@@ -101,3 +101,21 @@ footer {
     }
   }
 }
+.timeline {
+  background-color: #FAFAFA;
+  .navbar {
+    background-color: #FFF;
+    height: 60px;
+    border-bottom: 1px solid #dadada;
+    .left {
+      img {
+        width: 30%;
+      }
+    }
+    .right {
+      img {
+        width: 8%;
+      }
+    }
+  }
+}

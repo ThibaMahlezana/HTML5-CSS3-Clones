@@ -126,4 +126,22 @@ footer a {
 footer a:hover {
   text-decoration: none;
 }
+
+.timeline {
+  background-color: #FAFAFA;
+}
+
+.timeline .navbar {
+  background-color: #FFF;
+  height: 60px;
+  border-bottom: 1px solid #dadada;
+}
+
+.timeline .navbar .left img {
+  width: 30%;
+}
+
+.timeline .navbar .right img {
+  width: 8%;
+}
 /*# sourceMappingURL=styles.css.map */
