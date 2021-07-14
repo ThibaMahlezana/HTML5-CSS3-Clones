@@ -215,17 +215,20 @@ footer a:hover {
 }
 
 .timeline .post {
-  background-color: red;
   height: 500px;
+  border: 1px solid #dadada;
 }
 
 .timeline .post .post-head {
-  background-color: black;
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: small;
+  border-bottom: 1px solid #dadada;
 }
 
 .timeline .post .post-head .profile-pic {
@@ -233,9 +236,18 @@ footer a:hover {
   width: 50px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 5px;
 }
 
 .timeline .post .post-head .profile-pic img {
   width: 50px;
+}
+
+.timeline .post .post-head .username {
+  margin-left: 10px;
+}
+
+.timeline .post .post-head .username p {
+  margin: auto 0;
 }
 /*# sourceMappingURL=styles.css.map */

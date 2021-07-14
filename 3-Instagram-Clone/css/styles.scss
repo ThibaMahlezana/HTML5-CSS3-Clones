@@ -171,23 +171,31 @@ footer {
     }
   }
   .post {
-    background-color: red;
     height: 500px;
+    border: 1px solid #dadada;
 
     .post-head {
-      background-color: black;
       height: 80px;
       display: flex;
+      align-items: center;
       font-size: small;
+      border-bottom: 1px solid #dadada;
 
       .profile-pic {
         height: 50px;
         width: 50px;
         border-radius: 50%;
         overflow: hidden;
+        margin: 0 5px;
 
         img {
           width: 50px;
+        }
+      }
+      .username {
+        margin-left: 10px;
+        p {
+          margin: auto 0;
         }
       }
     }
