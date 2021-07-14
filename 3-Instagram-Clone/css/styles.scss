@@ -173,5 +173,23 @@ footer {
   .post {
     background-color: red;
     height: 500px;
+
+    .post-head {
+      background-color: black;
+      height: 80px;
+      display: flex;
+      font-size: small;
+
+      .profile-pic {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          width: 50px;
+        }
+      }
+    }
   }
 }

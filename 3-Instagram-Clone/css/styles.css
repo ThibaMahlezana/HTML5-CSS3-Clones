@@ -218,4 +218,24 @@ footer a:hover {
   background-color: red;
   height: 500px;
 }
+
+.timeline .post .post-head {
+  background-color: black;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: small;
+}
+
+.timeline .post .post-head .profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.timeline .post .post-head .profile-pic img {
+  width: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
