@@ -147,20 +147,26 @@ footer {
     align-items: center;
     border: 1px solid #dadada;
 
-    .status {
-      height: 70px;
-      width: 70px;
-      border-radius: 50%;
-      margin: 0 10px;
-      border: 2px solid $color_2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .status-sec {
+      font-size: small;
+      text-align: center;
       overflow: hidden;
-      padding: 1px;
 
-      img {
-        width: 68px;
+      .status {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 2px solid $color_2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 1px;
+
+        img {
+          width: 60px;
+        }
       }
     }
   }

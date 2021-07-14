@@ -185,9 +185,15 @@ footer a:hover {
   border: 1px solid #dadada;
 }
 
-.timeline .status-box .status {
-  height: 70px;
-  width: 70px;
+.timeline .status-box .status-sec {
+  font-size: small;
+  text-align: center;
+  overflow: hidden;
+}
+
+.timeline .status-box .status-sec .status {
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   margin: 0 10px;
   border: 2px solid #e95950;
@@ -204,8 +210,8 @@ footer a:hover {
   padding: 1px;
 }
 
-.timeline .status-box .status img {
-  width: 68px;
+.timeline .status-box .status-sec .status img {
+  width: 60px;
 }
 
 .timeline .post {
