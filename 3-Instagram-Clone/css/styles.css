@@ -351,4 +351,53 @@ footer a:hover {
   font-size: 15px;
   font-weight: 500;
 }
+
+.timeline .suggestions .title {
+  font-weight: 600;
+  color: #808080;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.timeline .suggestions .sug-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 18px 0;
+}
+
+.timeline .suggestions .sug-profile .image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.timeline .suggestions .sug-profile .image img {
+  width: 40px;
+}
+
+.timeline .suggestions .sug-profile .info {
+  font-size: small;
+  width: 18%;
+}
+
+.timeline .suggestions .sug-profile .info p {
+  margin: 0;
+}
+
+.timeline .suggestions .sug-profile .info .username {
+  font-weight: 600;
+}
+
+.timeline .suggestions .sug-profile .info .name {
+  color: #808080;
+}
+
+.timeline .suggestions .sug-profile .follow {
+  font-size: 15px;
+  color: #4c68d7;
+  font-weight: 600;
+}
 /*# sourceMappingURL=styles.css.map */

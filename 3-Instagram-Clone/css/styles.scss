@@ -285,5 +285,45 @@ footer {
         font-weight: 500;
       }
     }
+
+    .title {
+      font-weight: 600;
+      color: #808080;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .sug-profile {
+      display: flex;
+      margin: 18px 0;
+      .image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 15px;
+
+        img {
+          width: 40px;
+        }
+      }
+      .info {
+        font-size: small;
+        width: 18%;
+        p {
+          margin: 0;
+        }
+        .username {
+          font-weight: 600;
+        }
+        .name {
+          color: #808080;
+        }
+      }
+      .follow {
+        font-size: 15px;
+        color: $color_7;
+        font-weight: 600;
+      }
+    }
   }
 }
