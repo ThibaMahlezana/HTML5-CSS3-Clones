@@ -199,5 +199,36 @@ footer {
         }
       }
     }
+    .post-body {
+      img {
+        width: 100%;
+      }
+    }
+    .post-info {
+      padding: 10px;
+      .icons {
+        margin: 0 10px;
+        i {
+          margin: 0 5px;
+          font-size: 30px;
+        }
+      }
+      .likes {
+        font-size: 15px;
+        font-weight: 800;
+      }
+      .timestamp {
+        font-size: small;
+        border-bottom: 1px solid #dadada;
+        margin-bottom: 5px;
+      }
+      .comments {
+        input {
+          width: 80%;
+          margin-left: 10px;
+          border: none;
+        }
+      }
+    }
   }
 }

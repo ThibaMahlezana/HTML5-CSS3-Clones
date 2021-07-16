@@ -250,4 +250,38 @@ footer a:hover {
 .timeline .post .post-head .username p {
   margin: auto 0;
 }
+
+.timeline .post .post-body img {
+  width: 100%;
+}
+
+.timeline .post .post-info {
+  padding: 10px;
+}
+
+.timeline .post .post-info .icons {
+  margin: 0 10px;
+}
+
+.timeline .post .post-info .icons i {
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+.timeline .post .post-info .likes {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.timeline .post .post-info .timestamp {
+  font-size: small;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 5px;
+}
+
+.timeline .post .post-info .comments input {
+  width: 80%;
+  margin-left: 10px;
+  border: none;
+}
 /*# sourceMappingURL=styles.css.map */
