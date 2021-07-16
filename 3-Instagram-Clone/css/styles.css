@@ -293,11 +293,62 @@ footer a:hover {
   font-size: small;
   border-bottom: 1px solid #dadada;
   margin-bottom: 5px;
+  color: #808080;
 }
 
 .timeline .post .post-info .add-comments input {
   width: 80%;
   margin-left: 10px;
   border: none;
+}
+
+.timeline .suggestions {
+  margin: 30px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.timeline .suggestions .profile-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timeline .suggestions .profile-box .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 18px;
+}
+
+.timeline .suggestions .profile-box .image img {
+  width: 50px;
+}
+
+.timeline .suggestions .profile-box .info {
+  width: 18%;
+}
+
+.timeline .suggestions .profile-box .info .username {
+  font-weight: 600;
+}
+
+.timeline .suggestions .profile-box .info .name {
+  color: #808080;
+}
+
+.timeline .suggestions .profile-box .info p {
+  margin: 0;
+  font-size: small;
+}
+
+.timeline .suggestions .profile-box .switch {
+  color: #4c68d7;
+  font-size: 15px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -235,6 +235,7 @@ footer {
         font-size: small;
         border-bottom: 1px solid #dadada;
         margin-bottom: 5px;
+        color: #808080;
       }
       .add-comments {
         input {
@@ -242,6 +243,46 @@ footer {
           margin-left: 10px;
           border: none;
         }
+      }
+    }
+  }
+
+  .suggestions {
+    margin: 30px 0;
+    position: fixed;
+    width: 100%;
+
+    .profile-box {
+      display: flex;
+      align-items: center;
+      .image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 18px;
+
+        img {
+          width: 50px;
+        }
+      }
+      .info {
+        width: 18%;
+        .username {
+          font-weight: 600;
+        }
+        .name {
+          color: #808080;
+        }
+        p {
+          margin: 0;
+          font-size: small;
+        }
+      }
+      .switch {
+        color: $color_7;
+        font-size: 15px;
+        font-weight: 500;
       }
     }
   }
