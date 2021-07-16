@@ -171,8 +171,10 @@ footer {
     }
   }
   .post {
-    height: 500px;
+    height: auto;
     border: 1px solid #dadada;
+    margin: 50px 0;
+    overflow: hidden;
 
     .post-head {
       height: 80px;
@@ -216,13 +218,25 @@ footer {
       .likes {
         font-size: 15px;
         font-weight: 800;
+        margin: 5px 0;
+      }
+      .comments {
+        font-size: 15px;
+        margin-bottom: 5px;
+        p {
+          margin: 0;
+
+          span {
+            font-weight: 600;
+          }
+        }
       }
       .timestamp {
         font-size: small;
         border-bottom: 1px solid #dadada;
         margin-bottom: 5px;
       }
-      .comments {
+      .add-comments {
         input {
           width: 80%;
           margin-left: 10px;
