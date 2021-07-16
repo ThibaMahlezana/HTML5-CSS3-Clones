@@ -400,4 +400,13 @@ footer a:hover {
   color: #4c68d7;
   font-weight: 600;
 }
+
+.timeline .footer p {
+  margin: 0;
+}
+
+.timeline .footer a {
+  font-size: 12px;
+  color: #808080;
+}
 /*# sourceMappingURL=styles.css.map */

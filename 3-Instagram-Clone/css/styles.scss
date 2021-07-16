@@ -292,6 +292,7 @@ footer {
       margin-top: 30px;
       margin-bottom: 20px;
     }
+
     .sug-profile {
       display: flex;
       margin: 18px 0;
@@ -324,6 +325,15 @@ footer {
         color: $color_7;
         font-weight: 600;
       }
+    }
+  }
+  .footer {
+    p {
+      margin: 0;
+    }
+    a {
+      font-size: 12px;
+      color: #808080;
     }
   }
 }
