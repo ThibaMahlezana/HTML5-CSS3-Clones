@@ -459,4 +459,20 @@ footer a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+
+.profile .profile-box .info .title h2 {
+  margin-right: 10px;
+}
+
+.profile .profile-box .info .title .btn {
+  border: 1px solid #dadada;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+.profile .profile-box .info .title .extra-btns {
+  width: 50px;
+}
 /*# sourceMappingURL=styles.css.map */

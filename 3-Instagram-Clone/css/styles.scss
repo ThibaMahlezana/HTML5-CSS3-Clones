@@ -124,6 +124,7 @@ body {
     }
   }
 }
+
 footer {
   text-align: center;
   p {
@@ -366,6 +367,19 @@ footer {
       width: 70%;
       .title {
         display: flex;
+        h2 {
+          margin-right: 10px;
+        }
+        .btn {
+          border: 1px solid #dadada;
+          font-size: 15px;
+          margin-right: 5px;
+          margin-left: 5px;
+          width: 100px;
+        }
+        .extra-btns {
+          width: 50px;
+        }
       }
     }
   }
