@@ -460,7 +460,7 @@ footer a:hover {
   display: flex;
 }
 
-.profile .profile-box .info .title h2 {
+.profile .profile-box .info .title h3 {
   margin-right: 10px;
 }
 
@@ -470,9 +470,34 @@ footer a:hover {
   margin-right: 5px;
   margin-left: 5px;
   width: 100px;
+  height: 35px;
+  padding: 0;
 }
 
 .profile .profile-box .info .title .extra-btns {
   width: 50px;
+}
+
+.profile .profile-box .info .stats {
+  margin-top: 15px;
+}
+
+.profile .profile-box .info .stats a {
+  color: #2b2b2b;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.profile .profile-box .info .stats a span {
+  font-weight: 800;
+}
+
+.profile .profile-box .info .details {
+  margin-top: 15px;
+}
+
+.profile .profile-box .info .details p {
+  font-size: 15px;
+  margin: 5px 0;
 }
 /*# sourceMappingURL=styles.css.map */

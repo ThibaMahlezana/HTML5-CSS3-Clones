@@ -367,7 +367,7 @@ footer {
       width: 70%;
       .title {
         display: flex;
-        h2 {
+        h3 {
           margin-right: 10px;
         }
         .btn {
@@ -376,9 +376,30 @@ footer {
           margin-right: 5px;
           margin-left: 5px;
           width: 100px;
+          height: 35px;
+          padding: 0;
         }
         .extra-btns {
           width: 50px;
+        }
+      }
+      .stats {
+        margin-top: 15px;
+        a {
+          color: rgb(43, 43, 43);
+          font-size: 16px;
+          margin-right: 10px;
+
+          span {
+            font-weight: 800;
+          }
+        }
+      }
+      .details {
+        margin-top: 15px;
+        p {
+          font-size: 15px;
+          margin: 5px 0;
         }
       }
     }
