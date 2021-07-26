@@ -1,0 +1,25 @@
+/** nav styles **/
+
+nav, img {
+    width: 50px;
+}
+nav {
+    display: flex;
+    padding: 10px;
+    background-color: red;
+    
+    img {
+        width: 50px;
+    }
+    .left {
+        width: 500px;
+        background-color: white;
+        img {
+            width: 50px;
+        }
+    }
+    .mid {
+        width: 100px;
+        background-color: yellow;
+    }
+}
